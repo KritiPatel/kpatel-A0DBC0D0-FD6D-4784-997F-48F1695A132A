@@ -1,0 +1,357 @@
+[33m❯[39m Building...
+[32m✔[39m Building...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mstyles.css[37m         [2m | [22m[2mstyles[22m             [2m | [22m[36m26.94 kB[37m[2m | [22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+[32mchunk-RAYC7V7G.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m5.31 kB[37m[2m | [22m
+[32mchunk-2GTMOOIO.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m4.31 kB[37m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m      [2m | [22m[1m42.86 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-JQNUUCBR.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.43 kB[37m[2m | [22m
+[32mchunk-EFAWI3MW.js[37m  [2m | [22m[2mlogin-component[22m    [2m | [22m[36m12.76 kB[37m[2m | [22m
+
+Application bundle generation complete. [2.125 seconds] - 2026-02-17T00:22:39.259Z
+[39m
+[37mWatch mode enabled. Watching for file changes...[39m
+[37mNOTE: Raw file sizes do not reflect development server per-request transformations.[39m
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m          [2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m           [2m | [22m [36m6.30 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m          [2m | [22m[1mRaw size[22m
+[32mchunk-NCUJRFPV.js[37m  [2m | [22m[2mlogin-component[22m[2m | [22m[36m12.66 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.787 seconds] - 2026-02-17T00:48:47.296Z
+[39m
+[37mComponent update sent to client(s).[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-BW5ZFVO6.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.43 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.591 seconds] - 2026-02-17T00:49:21.342Z
+[39m
+[37mPage reload sent to client(s).[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mstyles.css[37m         [2m | [22m[2mstyles[22m             [2m | [22m[36m26.94 kB[37m[2m | [22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+[32mchunk-RAYC7V7G.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m5.31 kB[37m[2m | [22m
+[32mchunk-2GTMOOIO.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m4.31 kB[37m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m      [2m | [22m[1m42.86 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-BW5ZFVO6.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.43 kB[37m[2m | [22m
+[32mchunk-NCUJRFPV.js[37m  [2m | [22m[2mlogin-component[22m    [2m | [22m[36m12.66 kB[37m[2m | [22m
+
+Application bundle generation complete. [1.009 seconds] - 2026-02-17T00:49:45.515Z
+[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-KQHSL6EN.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.43 kB[37m[2m | [22m
+
+Application bundle generation complete. [1.048 seconds] - 2026-02-17T00:51:23.902Z
+[39m
+[37mPage reload sent to client(s).[39m
+[2m7:51:24 PM[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/tasks[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m7:51:24 PM[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/tasks[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37mApplication bundle generation failed. [2.107 seconds] - 2026-02-17T00:51:50.618Z
+[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/dashboard/dashboard.component"[0m
+
+    apps/dashboard/src/app/app.routes.ts:11:36:
+[37m      11 │ ...) => import([32m'./pages/dashboard/dashboard.component'[37m).then((m) =...
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/dashboard/dashboard.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    apps/dashboard/src/app/app.routes.ts:15:13:
+[37m      15 │       import([32m'./pages/dashboard/dashboard.component'[37m).then((m) => ...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mstyles.css[37m         [2m | [22m[2mstyles[22m             [2m | [22m[36m26.94 kB[37m[2m | [22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+[32mchunk-RAYC7V7G.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m5.31 kB[37m[2m | [22m
+[32mchunk-2GTMOOIO.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m4.31 kB[37m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m      [2m | [22m[1m42.86 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-JQNUUCBR.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.43 kB[37m[2m | [22m
+[32mchunk-EFAWI3MW.js[37m  [2m | [22m[2mlogin-component[22m    [2m | [22m[36m12.76 kB[37m[2m | [22m
+
+Application bundle generation complete. [2.484 seconds] - 2026-02-17T00:52:06.451Z
+[39m
+[37mPage reload sent to client(s).[39m
+[2m7:52:06 PM[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/tasks[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m7:52:06 PM[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/tasks[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m7:52:09 PM[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/tasks[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m          [2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m           [2m | [22m [36m6.30 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m          [2m | [22m[1mRaw size[22m
+[32mchunk-NCUJRFPV.js[37m  [2m | [22m[2mlogin-component[22m[2m | [22m[36m12.66 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.994 seconds] - 2026-02-17T00:52:13.695Z
+[39m
+[37mComponent update sent to client(s).[39m
+[2m7:52:43 PM[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/tasks[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-5PWKTGRR.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.47 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.822 seconds] - 2026-02-17T00:53:08.539Z
+[39m
+[37mPage reload sent to client(s).[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-7FKNOQ23.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.55 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.843 seconds] - 2026-02-17T00:53:13.541Z
+[39m
+[37mPage reload sent to client(s).[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m          [2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m           [2m | [22m [36m6.30 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m          [2m | [22m[1mRaw size[22m
+[32mchunk-TBKEKK7S.js[37m  [2m | [22m[2mlogin-component[22m[2m | [22m[36m12.68 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.978 seconds] - 2026-02-17T00:53:35.432Z
+[39m
+[37mPage reload sent to client(s).[39m
+[2m7:53:35 PM[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/tasks[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mstyles.css[37m         [2m | [22m[2mstyles[22m             [2m | [22m[36m26.94 kB[37m[2m | [22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+[32mchunk-RAYC7V7G.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m5.31 kB[37m[2m | [22m
+[32mchunk-2GTMOOIO.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m4.31 kB[37m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m      [2m | [22m[1m42.86 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-7FKNOQ23.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.55 kB[37m[2m | [22m
+[32mchunk-TBKEKK7S.js[37m  [2m | [22m[2mlogin-component[22m    [2m | [22m[36m12.68 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.413 seconds] - 2026-02-17T00:53:49.855Z
+[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37mApplication bundle generation failed. [0.844 seconds] - 2026-02-17T00:54:35.803Z
+[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/login/login.component"[0m
+
+    apps/dashboard/src/app/app.routes.ts:6:36:
+[37m      6 │ ...nt: () => import([32m'./pages/login/login.component'[37m).then((m) => m....
+        ╵                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/login/login.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    apps/dashboard/src/app/app.routes.ts:9:13:
+[37m      9 │       import([32m'./pages/login/login.component'[37m).then((m) => m.LoginCo...
+        ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37mApplication bundle generation failed. [0.245 seconds] - 2026-02-17T00:55:29.373Z
+[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/login/login.component"[0m
+
+    apps/dashboard/src/app/app.routes.ts:6:36:
+[37m      6 │ ...nt: () => import([32m'./pages/login/login.component'[37m).then((m) => m....
+        ╵                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/login/login.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    apps/dashboard/src/app/app.routes.ts:9:13:
+[37m      9 │       import([32m'./pages/login/login.component'[37m).then((m) => m.LoginCo...
+        ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37mApplication bundle generation failed. [0.037 seconds] - 2026-02-17T00:55:33.986Z
+[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./pages/login/login.component"[0m
+
+    apps/dashboard/src/app/app.routes.ts:6:36:
+[37m      6 │ ...nt: () => import([32m'./pages/login/login.component'[37m).then((m) => m....
+        ╵                     [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './pages/login/login.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    apps/dashboard/src/app/app.routes.ts:9:13:
+[37m      9 │       import([32m'./pages/login/login.component'[37m).then((m) => m.LoginCo...
+        ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mstyles.css[37m         [2m | [22m[2mstyles[22m             [2m | [22m[36m27.06 kB[37m[2m | [22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+[32mchunk-RAYC7V7G.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m5.31 kB[37m[2m | [22m
+[32mchunk-2GTMOOIO.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m4.31 kB[37m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m      [2m | [22m[1m42.98 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-NJINBPJG.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.42 kB[37m[2m | [22m
+[32mchunk-TBKEKK7S.js[37m  [2m | [22m[2mlogin-component[22m    [2m | [22m[36m12.68 kB[37m[2m | [22m
+
+Application bundle generation complete. [1.378 seconds] - 2026-02-17T00:57:13.371Z
+[39m
+[37mPage reload sent to client(s).[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mstyles.css[37m         [2m | [22m[2mstyles[22m             [2m | [22m[36m27.06 kB[37m[2m | [22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+[32mchunk-RAYC7V7G.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m5.31 kB[37m[2m | [22m
+[32mchunk-2GTMOOIO.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m4.31 kB[37m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m      [2m | [22m[1m42.98 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-NJINBPJG.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.42 kB[37m[2m | [22m
+[32mchunk-TBKEKK7S.js[37m  [2m | [22m[2mlogin-component[22m    [2m | [22m[36m12.68 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.457 seconds] - 2026-02-17T00:57:18.431Z
+[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.30 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-PKN3MPX5.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.42 kB[37m[2m | [22m
+
+Application bundle generation complete. [1.279 seconds] - 2026-02-17T01:07:06.814Z
+[39m
+[37mPage reload sent to client(s).[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m [2m | [22m [36m6.34 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.854 seconds] - 2026-02-17T01:07:22.500Z
+[39m
+[37mPage reload sent to client(s).[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.34 kB[37m[2m | [22m
+[32mchunk-DQODRU5L.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m4.42 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-YX2YOLSE.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.42 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.451 seconds] - 2026-02-17T01:07:34.255Z
+[39m
+[37mPage reload sent to client(s).[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.34 kB[37m[2m | [22m
+[32mchunk-XOKNP5UC.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m5.36 kB[37m[2m | [22m
+[32mchunk-JB7YYHRR.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m4.42 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-FJR7ZINU.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.42 kB[37m[2m | [22m
+[32mchunk-O7RP5XVQ.js[37m  [2m | [22m[2mlogin-component[22m    [2m | [22m[36m12.68 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.717 seconds] - 2026-02-17T01:08:07.118Z
+[39m
+[37mPage reload sent to client(s).[39m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mstyles.css[37m         [2m | [22m[2mstyles[22m             [2m | [22m[36m28.49 kB[37m[2m | [22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.34 kB[37m[2m | [22m
+[32mchunk-N5CFC5NH.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m4.42 kB[37m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-OLZREJ4B.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.42 kB[37m[2m | [22m
+
+Application bundle generation complete. [0.692 seconds] - 2026-02-17T01:08:20.777Z
+[39m
+[37mPage reload sent to client(s).[39m
+[2m8:09:03 PM[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/auth/login[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mstyles.css[37m         [2m | [22m[2mstyles[22m             [2m | [22m[36m28.49 kB[37m[2m | [22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m               [2m | [22m [36m6.34 kB[37m[2m | [22m
+[32mchunk-XOKNP5UC.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m5.36 kB[37m[2m | [22m
+[32mchunk-N5CFC5NH.js[37m  [2m | [22m[2m-[22m                  [2m | [22m [36m4.42 kB[37m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m      [2m | [22m[1m44.61 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m              [2m | [22m[1mRaw size[22m
+[32mchunk-OLZREJ4B.js[37m  [2m | [22m[2mdashboard-component[22m[2m | [22m[36m68.42 kB[37m[2m | [22m
+[32mchunk-O7RP5XVQ.js[37m  [2m | [22m[2mlogin-component[22m    [2m | [22m[36m12.68 kB[37m[2m | [22m
+
+Application bundle generation complete. [1.421 seconds] - 2026-02-17T01:09:23.960Z
+[39m

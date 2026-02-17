@@ -1,0 +1,4 @@
+> nx run auth:build
+
+Compiling TypeScript files for project "auth"...
+Done compiling TypeScript files for project "auth".

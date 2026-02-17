@@ -1,0 +1,70 @@
+NX Daemon is not running. Node process will not restart automatically after file changes.
+
+ NX   Running target build for project api and 2 tasks it depends on:
+
+
+
+> nx run data:build  [local cache]
+
+
+> nx run auth:build  [local cache]
+
+
+> nx run api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (1ecf59ee59fc8c35)
+
+
+
+ NX   Successfully ran target build for project api and 2 tasks it depends on
+
+Nx read the output from the cache instead of running the command for 2 out of 3 tasks.
+
+Debugger listening on ws://localhost:9229/03082ab2-63fc-49f9-8342-b23ee13fbc99
+Debugger listening on ws://localhost:9229/03082ab2-63fc-49f9-8342-b23ee13fbc99
+For help, see: https://nodejs.org/en/docs/inspector
+
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [NestFactory] Starting Nest application...
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] AppModule dependencies initialized +10ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] TypeOrmModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] ConfigHostModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] ConfigModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] ConfigModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] JwtModule dependencies initialized +24ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] TypeOrmCoreModule dependencies initialized +68ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] TypeOrmModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] TypeOrmModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] TypeOrmModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] TypeOrmModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] TypeOrmModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] SeedModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] OrganizationModule dependencies initialized +2ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] AuditModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] TasksModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [InstanceLoader] AuthModule dependencies initialized +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RoutesResolver] AuthController {/api/auth}: +106ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/auth/login, POST} route +3ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/auth/register, POST} route +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/auth/profile, GET} route +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RoutesResolver] AuditController {/api/audit-log}: +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/audit-log, GET} route +1ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RoutesResolver] OrganizationController {/api/organizations}: +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/organizations, GET} route +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/organizations/:id, GET} route +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/organizations, POST} route +1ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RoutesResolver] TasksController {/api/tasks}: +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/tasks, POST} route +2ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/tasks, GET} route +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/tasks/:id, GET} route +1ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/tasks/:id, PUT} route +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/tasks/:id, DELETE} route +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [RouterExplorer] Mapped {/api/tasks/reorder/batch, PUT} route +0ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [SeedService] Database already seeded, skipping.
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG [NestApplication] Nest application successfully started +2ms
+[Nest] 11372  - 02/14/2026, 8:28:11 PM     LOG 🚀 API running on http://localhost:3000/api
+
+ NX  Process exited with code null, waiting for changes to restart...
+

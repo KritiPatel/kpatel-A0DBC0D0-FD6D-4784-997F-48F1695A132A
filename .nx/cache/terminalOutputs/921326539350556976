@@ -1,0 +1,1674 @@
+
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development  [2m[local cache][22m
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (1ecf59ee59fc8c35)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 3 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/64a5c0fe-65a0-4384-bf6e-b52b048adf76
+Debugger listening on ws://localhost:9229/64a5c0fe-65a0-4384-bf6e-b52b048adf76
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:54 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +28ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +51ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +230ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +169ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 18320  - [39m02/16/2026, 7:21:55 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemonwebpack compiled [1m[32msuccessfully[39m[22m (991be80b17139c97)
+[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[1m[31mDebugger listening on ws://localhost:9229/206f46d7-0a1f-404e-908e-c9b808a1b43e
+Debugger listening on ws://localhost:9229/206f46d7-0a1f-404e-908e-c9b808a1b43e
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +47ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +121ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +552ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[32m[Nest] 15980  - [39m02/16/2026, 7:49:06 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[2m[31m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[31m NX [39m[22m[27m  [31mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (94fd8e863a29b2b6)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/2d8fbc20-1a0f-4c46-98aa-28de2d847758
+Debugger listening on ws://localhost:9229/2d8fbc20-1a0f-4c46-98aa-28de2d847758
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +24ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +62ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +120ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 16789  - [39m02/16/2026, 7:49:16 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+> nx run auth:build
+
+Compiling TypeScript files for project "auth"...
+Done compiling TypeScript files for project "auth".
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (90662df9341a6c53)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 1 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/27bf49d0-01a3-407c-85dc-2e3622c67ff9
+Debugger listening on ws://localhost:9229/27bf49d0-01a3-407c-85dc-2e3622c67ff9
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +27ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +61ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +129ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 18310  - [39m02/16/2026, 7:49:40 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development  [2m[existing outputs match the cache, left as is][22m
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (90662df9341a6c53)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 3 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/e6aee853-944c-40a8-843d-9458a87ce94b
+Debugger listening on ws://localhost:9229/e6aee853-944c-40a8-843d-9458a87ce94b
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +23ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +183ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +153ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 18762  - [39m02/16/2026, 7:49:47 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+> nx run auth:build
+
+Compiling TypeScript files for project "auth"...
+[1m[31m[96mlibs/auth/src/index.ts[0m:[93m2[0m:[93m15[0m - [91merror[0m[90m TS2307: [0mCannot find module './lib/roles.guard' or its corresponding type declarations.
+
+[7m2[0m export * from './lib/roles.guard';
+[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~[0m
+[39m[22m
+
+[2m[31m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[31m NX [39m[22m[27m  [31mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m auth:build
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+> nx run auth:build
+
+Compiling TypeScript files for project "auth"...
+[1m[31m[96mlibs/auth/src/index.ts[0m:[93m2[0m:[93m15[0m - [91merror[0m[90m TS2307: [0mCannot find module './lib/roles.guard' or its corresponding type declarations.
+
+[7m2[0m export * from './lib/roles.guard';
+[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~[0m
+[39m[22m
+
+[2m[31m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[31m NX [39m[22m[27m  [31mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m auth:build
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[local cache][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development  [2m[local cache][22m
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (1ecf59ee59fc8c35)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 3 out of 3 tasks.[22m
+
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+[1m[31mDebugger listening on ws://localhost:9229/9b3bcbd1-542a-4693-be92-50631e96f398
+Debugger listening on ws://localhost:9229/9b3bcbd1-542a-4693-be92-50631e96f398
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+
+[2m> [22m[2mnx run[22m api:build:development  [2m[existing outputs match the cache, left as is][22m
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (1ecf59ee59fc8c35)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 3 out of 3 tasks.[22m
+
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +41ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +89ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:10 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +202ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 27252  - [39m02/16/2026, 7:52:11 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks/tasks.service.ts:[32m[1m59:52[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'dto'.
+  [0m [90m 57 |[39m       [33m.[39mcreateQueryBuilder([32m'task'[39m)
+   [90m 58 |[39m       [33m.[39mwhere([32m'task.organization_id = :orgId'[39m[33m,[39m { orgId[33m:[39m user[33m.[39morganizationId })
+  [31m[1m>[22m[39m[90m 59 |[39m       [33m.[39mandWhere([32m'task.status = :status'[39m[33m,[39m { status[33m:[39m taskData[33m.[39mstatus [33m||[39m [32m'todo'[39m })
+   [90m    |[39m                                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 60 |[39m       [33m.[39mselect([32m'MAX(task.position)'[39m[33m,[39m [32m'max'[39m)
+   [90m 61 |[39m       [33m.[39mgetRawOne()[33m;[39m
+   [90m 62 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks/tasks.service.ts:[32m[1m64:10[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'dto'.
+  [0m [90m 62 |[39m
+   [90m 63 |[39m     [36mconst[39m task [33m=[39m [36mthis[39m[33m.[39mtaskRepo[33m.[39mcreate({
+  [31m[1m>[22m[39m[90m 64 |[39m       [33m...[39mdto[33m,[39m
+   [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 65 |[39m       position[33m:[39m dto[33m.[39mposition [33m?[39m[33m?[39m ((maxPosition[33m?[39m[33m.[39mmax [33m?[39m[33m?[39m [33m-[39m[35m1[39m) [33m+[39m [35m1[39m)[33m,[39m
+   [90m 66 |[39m       userId[33m:[39m user[33m.[39mid[33m,[39m
+   [90m 67 |[39m       organizationId[33m:[39m user[33m.[39morganizationId[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks/tasks.service.ts:[32m[1m65:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'dto'.
+  [0m [90m 63 |[39m     [36mconst[39m task [33m=[39m [36mthis[39m[33m.[39mtaskRepo[33m.[39mcreate({
+   [90m 64 |[39m       [33m...[39mdto[33m,[39m
+  [31m[1m>[22m[39m[90m 65 |[39m       position[33m:[39m dto[33m.[39mposition [33m?[39m[33m?[39m ((maxPosition[33m?[39m[33m.[39mmax [33m?[39m[33m?[39m [33m-[39m[35m1[39m) [33m+[39m [35m1[39m)[33m,[39m
+   [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 66 |[39m       userId[33m:[39m user[33m.[39mid[33m,[39m
+   [90m 67 |[39m       organizationId[33m:[39m user[33m.[39morganizationId[33m,[39m
+   [90m 68 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks/tasks.service.ts:[32m[1m76:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'id' does not exist on type 'Task[]'.
+  [0m [90m 74 |[39m       action[33m:[39m [33mAuditAction[39m[33m.[39m[33mCREATE[39m[33m,[39m
+   [90m 75 |[39m       resource[33m:[39m [32m'task'[39m[33m,[39m
+  [31m[1m>[22m[39m[90m 76 |[39m       resourceId[33m:[39m saved[33m.[39mid[33m,[39m
+   [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 77 |[39m       details[33m:[39m [32m`Created task: ${saved.title}`[39m[33m,[39m
+   [90m 78 |[39m       ipAddress[33m:[39m ip[33m,[39m
+   [90m 79 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks/tasks.service.ts:[32m[1m77:39[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'title' does not exist on type 'Task[]'.
+  [0m [90m 75 |[39m       resource[33m:[39m [32m'task'[39m[33m,[39m
+   [90m 76 |[39m       resourceId[33m:[39m saved[33m.[39mid[33m,[39m
+  [31m[1m>[22m[39m[90m 77 |[39m       details[33m:[39m [32m`Created task: ${saved.title}`[39m[33m,[39m
+   [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 78 |[39m       ipAddress[33m:[39m ip[33m,[39m
+   [90m 79 |[39m     })[33m;[39m
+   [90m 80 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks/tasks.service.ts:[32m[1m81:5[22m[39m[1m[39m[22m
+[90mTS2740: [39mType 'Task[]' is missing the following properties from type 'Task': id, title, description, status, and 9 more.
+  [0m [90m 79 |[39m     })[33m;[39m
+   [90m 80 |[39m
+  [31m[1m>[22m[39m[90m 81 |[39m     [36mreturn[39m saved[33m;[39m
+   [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 82 |[39m   }
+   [90m 83 |[39m
+   [90m 84 |[39m   [36masync[39m findAll(user[33m:[39m [33mRequestUser[39m[33m,[39m filters[33m?[39m[33m:[39m [33mTaskFilterDto[39m)[33m:[39m [33mPromise[39m[33m<[39m[33mTask[39m[][33m>[39m {[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (df1870241a1152fa)
+
+[2m[31m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[31m NX [39m[22m[27m  [31mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[2m[31m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[31m NX [39m[22m[27m  [31mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (e7c22a48e609357b)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/d8e2ffb6-778b-4f17-ac2c-769e91b3180a
+Debugger listening on ws://localhost:9229/d8e2ffb6-778b-4f17-ac2c-769e91b3180a
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +26ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +76ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +135ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 29332  - [39m02/16/2026, 7:52:41 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemonwebpack compiled [1m[32msuccessfully[39m[22m (6c42b12b2f199068)
+[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[1m[31mDebugger listening on ws://localhost:9229/f29cf424-b59c-4734-aeb3-60092c6f5cde
+Debugger listening on ws://localhost:9229/f29cf424-b59c-4734-aeb3-60092c6f5cde
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +38ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +81ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +282ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +101ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +18ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +16ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[32m[Nest] 30085  - [39m02/16/2026, 7:52:53 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[2m[31m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[31m NX [39m[22m[27m  [31mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (b93d7ba731ab98ff)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/5a40e0e8-f56c-4d5f-bf0c-0f524020ca49
+Debugger listening on ws://localhost:9229/5a40e0e8-f56c-4d5f-bf0c-0f524020ca49
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +13ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +33ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +85ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +160ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 30741  - [39m02/16/2026, 7:53:02 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+> nx run auth:build
+
+Compiling TypeScript files for project "auth"...
+Done compiling TypeScript files for project "auth".
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+> nx run auth:build
+
+Compiling TypeScript files for project "auth"...
+Done compiling TypeScript files for project "auth".
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (5e8662bd3af8f2f6)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 1 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/3fdceba7-f2c3-4d8c-8d63-4ddf0c61f2c5
+Debugger listening on ws://localhost:9229/3fdceba7-f2c3-4d8c-8d63-4ddf0c61f2c5
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:34 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +121ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +162ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +609ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +308ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[32m[Nest] 32769  - [39m02/16/2026, 7:53:36 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+webpack compiled [1m[32msuccessfully[39m[22m (5e8662bd3af8f2f6)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 1 out of 3 tasks.[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development  [2m[existing outputs match the cache, left as is][22m
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (5e8662bd3af8f2f6)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 3 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/2aeddb56-15ff-47f9-b898-45e484901632
+Debugger listening on ws://localhost:9229/2aeddb56-15ff-47f9-b898-45e484901632
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +24ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +78ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +121ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +0ms[39m
+[32m[Nest] 33835  - [39m02/16/2026, 7:53:51 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (0e872c9970f9d868)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/a1f0f378-1743-4dbf-bc69-744a7db789ff
+Debugger listening on ws://localhost:9229/a1f0f378-1743-4dbf-bc69-744a7db789ff
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +26ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +70ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +128ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +0ms[39m
+[32m[Nest] 76340  - [39m02/16/2026, 8:05:54 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (70d71e94484cec66)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/d3057a46-bafa-4446-a7e3-9b025a946e3b
+Debugger listening on ws://localhost:9229/d3057a46-bafa-4446-a7e3-9b025a946e3b
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:14 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +14ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +28ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +72ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +119ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 77613  - [39m02/16/2026, 8:06:15 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (16922428c31c79aa)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/e696f614-a846-414f-8ce0-8eced367fc4a
+Debugger listening on ws://localhost:9229/e696f614-a846-414f-8ce0-8eced367fc4a
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +24ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +63ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +119ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[32m[Nest] 78881  - [39m02/16/2026, 8:06:35 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (ad1b81d3320f2a03)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/8f17d485-8de1-4070-9aac-47b779f51bb2
+Debugger listening on ws://localhost:9229/8f17d485-8de1-4070-9aac-47b779f51bb2
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +15ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +30ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +70ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +124ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 79608  - [39m02/16/2026, 8:06:47 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+> nx run auth:build
+
+Compiling TypeScript files for project "auth"...
+Done compiling TypeScript files for project "auth".
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (10bb05a7560c86d9)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 1 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/3d30f54b-fb68-46e5-8294-95295f1e2602
+Debugger listening on ws://localhost:9229/3d30f54b-fb68-46e5-8294-95295f1e2602
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +12ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +26ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +66ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +119ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 80361  - [39m02/16/2026, 8:06:58 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (f7ad804822f1e6b3)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/5d24d859-a87e-4b28-8dd1-735022d7881b
+Debugger listening on ws://localhost:9229/5d24d859-a87e-4b28-8dd1-735022d7881b
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +26ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +72ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +122ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 83773  - [39m02/16/2026, 8:07:55 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (08ed630dced60b66)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/ca3a2f8d-73b9-40c1-94d7-d9a216f3d1a0
+Debugger listening on ws://localhost:9229/ca3a2f8d-73b9-40c1-94d7-d9a216f3d1a0
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +12ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +31ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +72ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +137ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 87406  - [39m02/16/2026, 8:08:55 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠹[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠸[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠼[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠴[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠦[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠧[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠇[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠏[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (cacb5f12420e4fc1)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/b35f9507-3ca2-4a99-994b-7f6b997454f4
+Debugger listening on ws://localhost:9229/b35f9507-3ca2-4a99-994b-7f6b997454f4
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +27ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +64ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +125ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[32m[Nest] 87964  - [39m02/16/2026, 8:09:04 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+[36m⠋[39m Calculating the project graph on the Nx Daemon[2K[1G[36m⠙[39m Calculating the project graph on the Nx Daemon[2K[1G
+[7m[1m[36m NX [39m[22m[27m  [36mRunning target [1mbuild[22m for project api and [1m2[22m tasks it depends on:[39m
+
+[2m[36m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m auth:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development  [2m[existing outputs match the cache, left as is][22m
+
+> webpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (cacb5f12420e4fc1)
+
+[2m[32m———————————————————————————————————————————————————————————————————————————————————[39m[22m
+
+[7m[1m[32m NX [39m[22m[27m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m2[22m tasks it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 3 out of 3 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/3c2c4c8a-29cb-42dc-9fbe-37a1d3a4da62
+Debugger listening on ws://localhost:9229/3c2c4c8a-29cb-42dc-9fbe-37a1d3a4da62
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +13ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +175ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +87ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSeedModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrganizationModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuditModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +122ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuditController {/api/audit-log}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/audit-log, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrganizationController {/api/organizations}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/organizations, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTasksController {/api/tasks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/tasks/reorder/batch, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[SeedService] [39m[32mDatabase already seeded, skipping.[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+[32m[Nest] 89264  - [39m02/16/2026, 8:09:25 PM [32m    LOG[39m [32m🚀 API running on http://localhost:3000/api[39m

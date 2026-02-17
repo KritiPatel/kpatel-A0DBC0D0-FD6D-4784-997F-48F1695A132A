@@ -1,0 +1,70 @@
+Prebundling has been configured but will not be used because caching has been disabled.
+❯ Building...
+✔ Building...
+Initial chunk files | Names               |  Raw size
+chunk-MFQ7LWZ4.js   | -                   |   1.56 MB | 
+chunk-ERJVKIMN.js   | -                   |  59.92 kB | 
+main.js             | main                |  55.62 kB | 
+styles.css          | styles              |  21.64 kB | 
+
+                    | Initial total       |   1.70 MB
+
+Lazy chunk files    | Names               |  Raw size
+chunk-VOZSITSZ.js   | dashboard-component | 245.83 kB | 
+chunk-BFL32QOL.js   | -                   | 156.27 kB | 
+chunk-PTJ4EOMK.js   | login-component     |  13.61 kB | 
+
+Application bundle generation complete. [3.159 seconds] - 2026-02-15T02:17:39.385Z
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:4200/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names               |  Raw size
+chunk-MFQ7LWZ4.js   | -                   |   1.56 MB | 
+chunk-ERJVKIMN.js   | -                   |  59.92 kB | 
+main.js             | main                |  55.62 kB | 
+styles.css          | styles              |  21.64 kB | 
+
+                    | Initial total       |   1.70 MB
+
+Lazy chunk files    | Names               |  Raw size
+chunk-VOZSITSZ.js   | dashboard-component | 245.83 kB | 
+chunk-BFL32QOL.js   | -                   | 156.27 kB | 
+chunk-PTJ4EOMK.js   | login-component     |  13.61 kB | 
+
+Application bundle generation complete. [1.169 seconds] - 2026-02-15T02:24:08.128Z
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  | 55.44 kB | 
+
+Application bundle generation complete. [2.030 seconds] - 2026-02-15T02:25:50.034Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names  | Raw size
+styles.css          | styles | 21.69 kB | 
+
+Application bundle generation complete. [0.086 seconds] - 2026-02-15T02:27:27.987Z
+
+Stylesheet update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names  | Raw size
+styles.css          | styles | 21.69 kB | 
+
+Application bundle generation complete. [0.030 seconds] - 2026-02-15T02:27:44.668Z
+
+Stylesheet update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names  | Raw size
+styles.css          | styles | 21.99 kB | 
+
+Application bundle generation complete. [0.070 seconds] - 2026-02-15T02:29:18.538Z
+
+Stylesheet update sent to client(s).

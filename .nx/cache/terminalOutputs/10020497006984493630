@@ -1,0 +1,6 @@
+Compiling TypeScript files for project "auth"...
+[1m[31m[96mlibs/auth/src/index.ts[0m:[93m2[0m:[93m15[0m - [91merror[0m[90m TS2307: [0mCannot find module './lib/roles.guard' or its corresponding type declarations.
+
+[7m2[0m export * from './lib/roles.guard';
+[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~[0m
+[39m[22m

@@ -1,0 +1,4 @@
+> nx run data:build
+
+Compiling TypeScript files for project "data"...
+Done compiling TypeScript files for project "data".

@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx test api --runInBand",
+    "startTime": "2026-02-17T04:05:55.934Z",
+    "endTime": "2026-02-17T04:06:05.217Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "api:test",
+      "target": "test",
+      "projectName": "api",
+      "hash": "6277709942695528729",
+      "startTime": "2026-02-17T04:05:55.987Z",
+      "endTime": "2026-02-17T04:06:05.214Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
